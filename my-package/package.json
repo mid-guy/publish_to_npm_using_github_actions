@@ -1,0 +1,24 @@
+
+
+{
+    "name": "@xcmk123/npm_project",
+    "version": "0.0.1",
+    "description": "📦 npm package tutorial",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "files": [
+        "index.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xcmk123/publish_to_npm_using_github_actions.git"
+    },
+    "keywords": [
+        "npm",
+        "publish",
+        "package",
+        "registry"
+    ]
+}
