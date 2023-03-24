@@ -1,7 +1,7 @@
 
 
 {
-    "name": "@xcmk123/npm_project",
+    "name": "@xcmk123/publish_to_npm_using_github_actions_123",
     "version": "0.0.1",
     "description": "📦 npm package tutorial",
     "main": "index.js",
