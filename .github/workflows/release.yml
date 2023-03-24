@@ -15,7 +15,7 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const packageJsonPath = './package.json';
+            const packageJsonPath = './my-package/package.json';
             const releaseTag = process.env.GITHUB_REF.split('/').slice(2).join('/');
             const packageJson = JSON.parse(fs.readFileSync(packageJsonPath));
             packageJson.version = releaseTag;
